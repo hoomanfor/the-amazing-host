@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.hci-caret:before {
+  content: "\e902";
+}
 .hci-article:before {
   content: "\e900";
 }
