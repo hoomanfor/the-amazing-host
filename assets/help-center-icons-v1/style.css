@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'help-center-icons';
-  src:  url('fonts/help-center-icons.eot?dx5wnv');
-  src:  url('fonts/help-center-icons.eot?dx5wnv#iefix') format('embedded-opentype'),
-    url('fonts/help-center-icons.ttf?dx5wnv') format('truetype'),
-    url('fonts/help-center-icons.woff?dx5wnv') format('woff'),
-    url('fonts/help-center-icons.svg?dx5wnv#help-center-icons') format('svg');
+  src:  url('fonts/help-center-icons.eot?h8ufn9');
+  src:  url('fonts/help-center-icons.eot?h8ufn9#iefix') format('embedded-opentype'),
+    url('fonts/help-center-icons.ttf?h8ufn9') format('truetype'),
+    url('fonts/help-center-icons.woff?h8ufn9') format('woff'),
+    url('fonts/help-center-icons.svg?h8ufn9#help-center-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.hc-navigation-menu:before {
+  content: "\e914";
+}
 .hc-social-blog:before {
   content: "\e913";
 }
